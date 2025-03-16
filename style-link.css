@@ -1,0 +1,78 @@
+/* Animation rebond */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40%, 60% { transform: translateY(-5px); }
+}
+
+img {
+  border-radius: 75px;
+  animation: bounce 2s infinite;
+  margin-top: 20px;
+}
+
+/* Style spécifique au logo du footer */
+.footer-logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 10px;
+  animation: none;
+}
+
+/* Texte du footer */
+footer {
+  margin-top: auto;
+   color: #f5f5f5; /* Couleur claire */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+/* Liens */
+a {
+  background-color: #848ea7;
+  font-size: 18px;
+  border-radius: 27px;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  margin: 20px 200px; /* Alignement central avec marges horizontales */
+  color: #111215;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+  font-family: Open Sans;
+}
+
+a:hover {
+  color: white;
+  background-color: #3a4a72;
+  transform: scale(1.05);
+}
+
+body {
+  color: white;
+  background: linear-gradient(to right,#3a4a72,#e6e8ed);
+  text-align: center;
+  font-family: Open Sans;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Open Sans;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: Open Sans;
+}
+
+p {
+  font-size: 28px;
+  font-family: Open Sans;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: Open Sans;
+}
